@@ -8,8 +8,16 @@ module.exports = {
       gray: '#667085',
       'hover-gray': '#D0D5DD',
       'gray-light': '#EAECF0',
+      'purple-btn': '#6938EF',
+      'purple-text': '#5925DC',
+      'trans-dark': '#3d3d4c',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        camera: "url('../')",
+        'camera-pattern': "url('./static/camera.svg')",
+      },
+    },
   },
   variants: {},
   plugins: [],
