@@ -50,9 +50,7 @@ const Main = () => {
         <a href="https://github.com/VictoriaAde">
           <img src={githubIcon} alt="github icon" />
         </a>
-        <a href="#">
-          <img src={slackIcon} alt="slack icon" />
-        </a>
+        <img src={slackIcon} alt="slack icon" />
       </div>
     </main>
   );
