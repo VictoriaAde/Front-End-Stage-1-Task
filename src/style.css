@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.profile_img:hover + .profile_overlay,
-.profile_img:focus + .profile_overlay {
-  display: block;
+@layer base {
+  .profile_img:hover + .profile_overlay,
+  .profile_img:focus + .profile_overlay {
+    display: block;
+  }
 }
